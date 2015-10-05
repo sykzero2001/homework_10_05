@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnforget;
+@property (weak, nonatomic) IBOutlet UIButton *btncreate;
 
 @end
 
